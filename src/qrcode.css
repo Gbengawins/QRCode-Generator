@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@200;400;700&display=swap');
+
+:root {
+    --bg-img-1: linear-gradient(215deg,
+                hsl(240deg 100% 20%) 0%,
+                hsl(289deg 100% 21%) 11%,
+                hsl(315deg 100% 27%) 22%,
+                hsl(329deg 100% 36%) 33%,
+                hsl(337deg 100% 43%) 44%,
+                hsl(357deg 91% 59%) 56%,
+                hsl(17deg 100% 59%) 67%,
+                hsl(34deg 100% 53%) 78%,
+                hsl(45deg 100% 50%) 89%,
+                hsl(55deg 100% 50%) 100%);
+    --bg-img-2: linear-gradient(130deg,
+                hsl(240deg 100% 20%) 0%,
+                hsl(289deg 100% 21%) 11%,
+                hsl(315deg 100% 27%) 22%,
+                hsl(329deg 100% 36%) 33%,
+                hsl(337deg 100% 43%) 44%,
+                hsl(357deg 91% 59%) 56%,
+                hsl(17deg 100% 59%) 67%,
+                hsl(34deg 100% 53%) 78%,
+                hsl(45deg 100% 50%) 89%,
+                hsl(55deg 100% 50%) 100%);
+    --box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.qrcode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background: var(--bg-img-1);
+    font-family: 'Nunito', sans-serif;
+}
+.header {
+    margin-top: -25vh;
+    height: 5vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    box-shadow: var(--box-shadow);
+    background: var(--bg-img-2);
+    
+}
+
+.brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 30px;
+    font-family: 'Fredoka One', cursive;
+}
+
+.code-elements {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+}
+
+.code-card {
+    margin-top: 10vh;
+    width: 30vw;
+    height: 70vh;
+    background-color: #fff;
+    box-shadow: var(--box-shadow);
+}
+
+input {
+    height: 20px;
+    width: 20vw;
+    padding: 5px;
+    outline-color: greenyellow!important;
+}
