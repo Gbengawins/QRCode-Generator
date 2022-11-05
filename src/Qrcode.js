@@ -31,6 +31,26 @@ function Qrcode () {
           onChange={(e) => setFore(e.target.value)}
           placeholder="Foreground color"
         />
+        <br />
+        <br />
+        <input
+          type="number"
+          onChange={(e) =>
+            setSize(parseInt(e.target.value === "" ? 0 : e.target.value, 10))
+          }
+          placeholder="Give Size of Qr-code"
+        />
+        <br />
+        <br />
+        {value && (
+        <QRCode
+        title="iBukunMedia"
+            value={ value }
+            bgColor={ back }
+            fgColor={ fore }
+            size={ size === "" ? 0 : size }
+        />
+        ) }
       </center>
     </div>
   );
