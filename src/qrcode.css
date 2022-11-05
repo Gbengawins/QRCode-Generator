@@ -37,7 +37,7 @@
     font-family: 'Nunito', sans-serif;
 }
 .header {
-    margin-top: -25vh;
+    margin-top: -15vh;
     height: 5vh;
     width: 100vw;
     display: flex;
@@ -50,7 +50,6 @@
 
 .brand {
     font-size: 1.5rem;
-    font-weight: bold;
     margin-left: 30px;
     font-family: 'Fredoka One', cursive;
 }
